@@ -1,0 +1,3 @@
+DarkRed	#8B0000	rgb(139, 0, 0) menu
+Khaki	#F0E68C fondo
+carito
