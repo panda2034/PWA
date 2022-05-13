@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+.menu {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 20px 40px;
+}
+
+.heading {
+  background-color: #3e592c;
+  color: #ffffff;
+  margin-bottom: 1px;
+  padding: 120px 0 30px 0;
+  grid-column: 1/-1;
+  text-align: center;
+}
+
+.heading>h1 {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+}
+
+.heading>h3 {
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+.food-items {
+  display: grid;
+  position: relative;
+  grid-template-rows: auto 1fr;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin: 0 50px;
+}
+
+.food-items img {
+  position: relative;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.details {
+  padding: 20px 10px;
+  display: grid;
+  grid-template-rows: auto 1fr -8px;
+  grid-row-gap: 15px;
+}
+
+.details-sub {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+h5 a:link {
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #ffffff;
+  /* Green */
+  border-radius: 10%;
+  color: rgb(255, 251, 251);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+
+}
+
+.price {
+  text-align: right;
+}
+
+.details>p {
+  color: #6f6f6f;
+  font-size: 15px;
+  line-height: 28px;
+  font-weight: 400;
+  align-self: stretch;
+}
+
+.details>button {
+  background-color: #cb202d;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  width: 180px;
+}
+
+div.dataTables_wrapper {
+  margin-bottom: 3em;
+}
+
+.table {
+  margin: 1% auto;
+  text-align: center;
+}
+
+a:link,
+a:visited {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+
+
+}
+
+h3 {
+  color: azure;
+}
+
+@media (min-width:600%) {
+  body {
+    flex-direction: row-reverse;
+    padding: 0px 60px;
+    justify-content: space-around;
+
+  }
+}
